@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+#Title{
+    text-align: center;
+    color: white;
+    background-color: chartreuse;
+}
+#normalmode{
+    text-align: center;
+    color: #af50a9;
+    background-color: #eae615;
+}
+.container {
+    color: rgb(219, 74, 74);
+    padding-top: 80px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 3px;
+    grid-gap: 4px;
+}
+div :hover {
+    background-color: #3bff1d;
+    cursor: pointer;
+}
+
+.gamegrid {
+    background-color: #5303ff;
+    border: 3px solid blueviolet;
+    border-radius: 3px;
+}
+.newclass{
+    background-color: white;
+    border: 3px solid blueviolet;
+    border-radius: 3px;
+}

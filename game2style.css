@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.container{
+    color: rgb(219, 74, 74);
+    padding-top: 140px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 3px;
+    grid-gap: 4px;
+}
+div :hover{
+    background-color: #3bff1d;
+    cursor: pointer;
+}
+.heyy{
+    background-color: #5303ff;
+    border: 3px solid blueviolet;
+    border-radius: 3px;
+}
